@@ -47,7 +47,6 @@ task Get_Serogroup {
         --input ~{assembly} \
         --serogroup_filename ~{sample_id}_serogroup.txt \
         --genogroup_filename ~{sample_id}_genogroup.txt \
-        --sample ~{sample_id}
     >>>
 
     output {
