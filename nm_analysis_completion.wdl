@@ -28,6 +28,11 @@ workflow NM_Analysis_Completion {
         String serogroup = Get_Serogroup.serogroup
         String genogroup = Get_Serogroup.genogroup
     }
+
+     meta {
+        author      = "David Maimoun"
+        organization = "MOH Jerusalem"
+    }
 }
 
 task Get_Serogroup {
