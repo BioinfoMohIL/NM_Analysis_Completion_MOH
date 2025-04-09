@@ -30,8 +30,9 @@ workflow NM_Analysis_Completion {
     }
 
      meta {
-        author      = "David Maimoun"
-        organization = "MOH Jerusalem"
+        author: "David Maimoun"
+        organization: "MOH Jerusalem"
+        description: "Fetch N. Meningitidis Sero/Geno group, Clonal Complex and MenDeVAR based on assembly (fasta)"
     }
 }
 
