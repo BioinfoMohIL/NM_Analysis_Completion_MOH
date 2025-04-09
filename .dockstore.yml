@@ -1,0 +1,5 @@
+version: 1.2
+workflows:
+ - name: NM_Analysis_Completion_MOH
+   subclass: WDL
+   primaryDescriptorPath: /nm_analysis_completion.wdl
